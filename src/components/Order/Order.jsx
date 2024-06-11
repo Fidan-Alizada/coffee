@@ -21,7 +21,7 @@ const RecipeCard = ({ recipe, addToCart }) => {
         <div className="recipe-card">
             <img src={recipe.image} alt={recipe.name} />
             <h3>{recipe.name}</h3>
-            <p>Price: {recipe.userId}</p>
+            <p>Price: ${recipe.userId}</p>
             <div className="controls">
                 <button onClick={decreasePortion}>-</button>
                 <span>{portion}</span>
