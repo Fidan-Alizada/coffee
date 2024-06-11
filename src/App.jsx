@@ -7,6 +7,7 @@ import Delivery from './components/Delivery/Delivery.jsx';
 import FeedBack from './components/FeedBack/Feedback.jsx';
 import Order from './components/Order/Order.jsx';
 import CartPage from './components/CartPage/CartPage.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/order" element={<Order />} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
